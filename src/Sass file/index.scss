@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* TODO: Import a big image to test import of spliced .css */
+#foobar{
+  background-image: url(/logo.svg)
+}
+
+//dropdowan
+#kc-locale-dropdown {
+  position: relative;
+}
+
+#kc-current-locale-link {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  min-width: 60px;
+  right: -4%;
+  top: 61%;
+  display: none;;
+}
+
+.kc-dropdown {
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+ul li a:hover {
+  color: cadetblue;
+  font-weight: 300;
+}
+
+.kc-dropdown:hover ul {
+  display: inline;
+  transition: all 5s
+}
+
+h1 {
+  text-align: center;
+  color: cadetblue;
+}
+
+//loginCard
+#kc-content {
+  padding: 45px;
+  box-shadow: 0px 6px 11px #e2ded0;
+  border-radius: 7px;
+  width: 80%;
+  margin-left: 8rem;
+}
+
+#kc-content-wrapper {
+  width: 100%;
+}
+
+//msg on card
+.alert, .alert-success{
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+//login form
+#kc-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 26px;
+}
+
+.control-label {
+  font-size: 18px;
+  margin-bottom: 12px !important;
+}
+
+#kc-header-wrapper {
+  font-size: 30px;
+  color: cadetblue;
+  margin-left: 12px;
+}
+
+.form-control {
+  width: 35rem;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 11px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.login-pf-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+//links
+.login-pf-settings a , #kc-registration a, #backToApplication {
+  text-decoration: none;
+  color: cadetblue;
+  font-weight: 500;
+}
+
+//Button
+#kc-login, #kc-form-buttons .btn, .instruction a, #kc-accept, #kc-decline{
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  margin-top: 11px;
+  width: 100px;
+  background: cadetblue;
+  color: #fff;
+}
+
+#kc-registration span {
+  margin-right: 5px;
+}
+
+.kc-feedback-text {
+  color: red;
+}
+
+//For reset password
+input {
+  background-color: #DCE7EC;
+}
+
+.col-xs-12 .control-label, .col-xs-12 .form-control{
+  margin-left: 27rem;
+}
+
+//For email varification
+#kc-content-wrapper .instruction {
+  text-align: center;
+}
+ 
+.form-group #updateProfile, .form-group #linkAccount {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 43%;
+}
+
+#kc-register-form .form-group button{
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  margin-top: 11px;
+  width: 100px;
+  background: cadetblue;
+  color: #fff;
+}
+
+#updateProfile {
+  padding: 8px !important;
+  margin: 3px;
+}
+
+#linkAccount {
+  padding: 1px !important;
+  margin: 4px;
+}
+
+//for login page expired
+#instruction1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#instruction1 a {
+  margin-left: 45%;
+}
+
+//For loginotp
+.card-pf-top-element {text-align: center;}
+
+//register
+.form-actions {
+  text-align: center;
+}
+
+#kc-terms-text {
+  text-align: center;
+}
+
+//terms
+#kc-decline {
+  margin-left: 15px;
+}
+
+//Register
+#kc-register-form {
+  width: 70%;
+}
+
+#kc-form-options {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 11%;
+}
+
+#kc-form-options span a {
+  text-decoration: none;
+  color: cadetblue;
+  font-weight: 500;
+}
+
+
+#kc-form-buttons {
+  margin-left: 49%;
+}
+
+#input-error-username {
+  margin-left: 53%;
+  margin-top: 6px;
+}
+
+.subtitle {
+  color: red;
+  margin-left: 4%;
+}
+
+#updateProfile, #linkAccount {
+  margin-left: 65% !important;
+}
